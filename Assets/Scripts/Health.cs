@@ -77,6 +77,16 @@ public class Health : MonoBehaviour
                 explode1Instance.Play();
                 Destroy(explode1Instance.gameObject, explode1Instance.main.duration + explode1Instance.main.startLifetime.constantMax);
             }
+            else if (gameObject.tag == "Player" && other.tag == "Enemy")
+            {
+                damageDealer.Hit();
+                TakeDamage(damageDealtByCollider);
+                ParticleSystem explode1Instance = Instantiate(explodeShip1, other.transform.position, Quaternion.identity);
+                explode1Instance.Play();
+                Destroy(explode1Instance.gameObject, explode1Instance.main.duration + explode1Instance.main.startLifetime.constantMax);
+
+
+            }
             else
             {
                 Debug.Log("Something Else Happened!!! (see OnTriggerEnter2D in Health script)");
