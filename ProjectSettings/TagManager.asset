@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Projectile Enemy
+  - Projectile Player
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Enemies
+  - Background
+  - Projectile Enemy
+  - Projectile Player
+  - Overlay
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2342798419
+    locked: 0
+  - name: Parallax Layer
+    uniqueID: 2338941187
+    locked: 0
+  - name: Parallax Layer Close
+    uniqueID: 2841888239
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Projectiles
+    uniqueID: 2258423155
+    locked: 0
+  - name: Enemies
+    uniqueID: 2981021597
+    locked: 0
+  - name: Player
+    uniqueID: 2074813577
+    locked: 0
+  - name: Explosion particles
+    uniqueID: 1779156731
+    locked: 0
+  - name: Overlay
+    uniqueID: 2820484089
+    locked: 0
